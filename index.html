@@ -28,7 +28,8 @@
 </head>
 
 <body>
-    <header> <!-- Este es el header que tiene el menu, siempre esta visible y puedes navegar por la pagina -->
+    <header>
+        <!-- Este es el header que tiene el menu, siempre esta visible y puedes navegar por la pagina -->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Paco Constructions</a>
@@ -57,7 +58,8 @@
         </nav>
     </header>
 
-    <main> <!-- Esto es el carrusel principal, con una pequeña descripion de lo que ofrece la empresa. -->
+    <main>
+        <!-- Esto es el carrusel principal, con una pequeña descripion de lo que ofrece la empresa. -->
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
@@ -107,7 +109,22 @@
             </button>
         </div>
 
-
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold">Free 50 Kg of Cement</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">If you contact now, you can try the best cement for free.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Contact NOW</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Really contact NOW</button>
+                </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+                <div class="container px-5">
+                    <img src="assets/img/cement2.webp" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+                        width="700" height="500" loading="lazy">
+                </div>
+            </div>
+        </div>
         <!-- Aqui comienza el contenido de la pagina, con mas descripciones y columnas a 3-->
 
         <div class="container marketing">
@@ -148,13 +165,15 @@
                                                 <div class="form-group"> <label for="form_name">Firstname *</label>
                                                     <input id="form_name" type="text" name="name" class="form-control"
                                                         placeholder="Please enter your firstname *" required="required"
-                                                        data-error="Firstname is required."> </div>
+                                                        data-error="Firstname is required.">
+                                                </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group"> <label for="form_lastname">Lastname *</label>
                                                     <input id="form_lastname" type="text" name="surname"
                                                         class="form-control" placeholder="Please enter your lastname *"
-                                                        required="required" data-error="Lastname is required."> </div>
+                                                        required="required" data-error="Lastname is required.">
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -184,7 +203,8 @@
                                                     <textarea id="form_message" name="message" class="form-control"
                                                         placeholder="Write your message here." rows="4"
                                                         required="required"
-                                                        data-error="Please, leave us a message."></textarea> </div>
+                                                        data-error="Please, leave us a message."></textarea>
+                                                </div>
                                             </div>
                                             <div class="col-md-12"> <input type="submit"
                                                     class="btn btn-success btn-send pt-2 btn-block "
